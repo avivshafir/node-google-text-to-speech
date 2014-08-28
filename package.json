@@ -1,0 +1,32 @@
+{
+  "name": "node-google-text-to-speech",
+  "version": "0.1.0",
+  "description": "Google TTS(Text-To-Speech) for node.js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashafir20/node-google-text-to-speech.git"
+  },
+  "dependencies": {
+    "request": "2.34.0",
+    "stream-buffers": "0.2.5"
+  },
+  "keywords": [
+    "google-tts",
+    "google-text-to-speech",
+    "node-tts",
+    "text-to-speech"
+  ],
+  "author": "Aviv Shafir <ashafir20@gmail.com>",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+  },
+  "bugs": {
+    "url": "https://github.com/ashafir20/node-google-text-to-speech/issues"
+  },
+  "homepage": "https://github.com/ashafir20/node-google-text-to-speech"
+}
