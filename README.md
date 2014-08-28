@@ -18,7 +18,8 @@ A small library for translating text-to-speech service for google.
   tts.translate('en', 'dog', function(result) {
   	console.log(result); 
   	if(result.success) { //check for success
-  		socket.emit('ttsResult', 'audio' : result.data); //emit the audio to client
+  		var response = { 'audio' : result.data };
+  		socket.emit('ttsResult', response); //emit the audio to client
   	}
   });
 
