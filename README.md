@@ -11,14 +11,18 @@ A small library for translating text-to-speech service for google.
 
 ## Usage
 
+```js
+
   var tts = require('node-google-text-to-speech')
-  
+
   tts.translate('en', 'dog', function(result) {
   	console.log(result); 
   	if(result.success) { //check for success
   		socket.emit('ttsResult', 'audio' : result.data); //emit the audio to client
   	}
   });
+
+```
 
 ## Release History
 
