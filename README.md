@@ -5,6 +5,8 @@ Google Text-To-Speech for node.js
 
 A small library for translating text-to-speech service for google.
 
+## This Node Module is no longer maintained!
+
 ## Installation
 
   npm install node-google-text-to-speech --save
